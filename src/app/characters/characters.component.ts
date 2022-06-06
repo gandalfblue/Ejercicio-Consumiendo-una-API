@@ -1,5 +1,4 @@
 import { CharacterInterface } from './../characterInterface';
-import { Observable } from 'rxjs';
 import { CharacterService } from '../characters.service';
 import { Component, OnInit } from '@angular/core';
 
@@ -21,12 +20,3 @@ export class CharactersComponent implements OnInit {
     });
   }
 }
-// this.pokemones.push(
-//   ...data.results.map((pokemon: any) => {
-//     this.listaImagen(pokemon.name);
-//     // pokemon.url = this.urlImagen;    // console.log(pokemon)
-//     return pokemon;
-//   })
-// );
-// console.log(this.pokemones);
-// });
